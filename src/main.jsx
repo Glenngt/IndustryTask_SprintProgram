@@ -4,7 +4,8 @@ import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Homepage from './Pages/homepage/homepage'; // Ensure this matches the actual file name and path
 import DashboardPage from './Pages/dashboardPage/dashboardPage'; // Ensure this matches the actual file name and path
-import ChatPage from './Pages/chatPage/hatPage'; // Ensure this matches the actual file name and path
+import ChatPage from './Pages/chatPage/chatPage';
+
 
 const router = createBrowserRouter([
   {
