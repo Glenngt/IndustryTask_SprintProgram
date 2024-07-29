@@ -2,13 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Homepage from './Pages/homepage/homepage'; // Ensure this matches the actual file name and path
+
 import DashboardPage from './Pages/dashboardPage/dashboardPage'; // Ensure this matches the actual file name and path
 import ChatPage from './Pages/chatPage/chatPage';
 import RootLayout from './layouts/rootLayout/rootLayout';
 import DashboardLayout from './layouts/dashboardLayout/dashboardLayout';
 import SignInPage from './Pages/signInPage/SignInPage';
 import SignUpPage from './Pages/signUpPage/SignUpPage';
+import Homepage from './Pages/homepage/Homepage';
 
 
 const router = createBrowserRouter([
@@ -17,7 +18,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Homepage />,
+        element: <Homepage/>,
       },
       {
         path: "/sign-in/*",
