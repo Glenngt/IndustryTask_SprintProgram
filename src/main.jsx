@@ -9,7 +9,7 @@ import RootLayout from './layouts/rootLayout/rootLayout';
 import DashboardLayout from './layouts/dashboardLayout/dashboardLayout';
 import SignInPage from './Pages/signInPage/SignInPage';
 import SignUpPage from './Pages/signUpPage/SignUpPage';
-import Homepage from './Pages/homepage/Homepage';
+import Homepage from './Pages/homepage/homepage';
 
 
 const router = createBrowserRouter([
