@@ -18,11 +18,19 @@
         margin-bottom: 10px;
     }
 
-    .list{
+    .list {
         display: flex;
         flex-direction: column;
-        overflow: scroll;
+        overflow: auto; /* Ensure scroll is enabled */
+        position: relative;
     }
+    
+    /* Hide scrollbar for WebKit browsers */
+    .list::-webkit-scrollbar {
+        width: 0px;
+        background: transparent; /* Make the scrollbar transparent */
+    }
+    
 
     a{
         padding: 10px;
