@@ -3,7 +3,7 @@
 ● This project was developed using React.js, HTML, CSS and JavaScript for its FrontEnd, Node.js
 and Express.js as its BackEnd and MongoDB for Database Management.
 ● The object of the project was to build a web application that integrates a Language Model API.
-● The project utilizes Google Gemini AI API as its language model..
+● The project utilizes Google Gemini AI API as its language model.
 ● The integrated tools like Clerk Authentication and imageKit.io help in user authentication and image
 handling respectively.
 
